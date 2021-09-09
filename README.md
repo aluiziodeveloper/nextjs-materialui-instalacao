@@ -1,43 +1,56 @@
-# Next.js with TypeScript example
+<p align="center">
+  <a href="https://aluiziodeveloper.com.br/">
+    <img alt="Aluizio Developer" src="https://aluiziodeveloper.com.br/assets/img/icon.png" width="200" />
+  </a>
+</p>
+<h2 align="center">
+Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
+</h2>
 
-## How to use
+# Desenvolvimento de Aplicação Web com Next.js, Typescript e Material-UI
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Esse projeto será a aplicação front-end para consumir a API desenvolvida no [Curso Prático de Node.js com Typescript, Postgres, TypeORM, e vários outros recursos](https://www.udemy.com/course/api-restful-de-vendas/?referralCode=6DDEF85A747CA5CC4135), disponível para aquisição através do portal da Udemy.
 
-<!-- #default-branch-switch -->
+## Repositório de Modelo
+
+Este repositório já possui a preparaçào inicial com as principais ferramentas instaladas.
+
+1. Clonar o repositório com a estrutura inicial:
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/next | tar -xz --strip=2  material-ui-next/examples/nextjs-with-typescript
-cd nextjs-with-typescript
+git clone https://github.com/aluiziodeveloper/nextjs-materialui-instalacao.git
 ```
 
-Install it and run:
+2. Instalar as dependências:
 
 ```sh
+cd nextjs-materialui-instalacao/
+
+yarn
+
+# ou
+
 npm install
+```
+
+3. Executar o projeto para iniciar o desenvolvimento:
+
+```sh
+yarn dev
+
+# ou
+
 npm run dev
 ```
 
-or:
+Após rodar o comando de execução, abra a aplicação no endereço `http://localhost:3000` usando o browser de sua preferência.
 
-<!-- #default-branch-switch -->
+## Contato
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/next/examples/nextjs-with-typescript)
+[Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
-## The idea behind the example
+[YouTube](https://www.youtube.com/jorgealuizio)
 
-The project uses [Next.js](https://github.com/zeit/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in Material-UI v5. If you prefer, you can [use styled-components instead](https://next.material-ui.com/guides/interoperability/#styled-components).
+[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
 
-## The link component
-
-Next.js has [a custom Link component](https://nextjs.org/docs/api-reference/next/link).
-The example folder provides adapters for usage with Material-UI.
-More information [in the documentation](https://next.material-ui.com/guides/routing/#next-js).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://next.material-ui.com/getting-started/templates/) section.
+[Discord](https://discord.gg/3J87BMz5fD)
